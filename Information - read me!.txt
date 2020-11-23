@@ -1,0 +1,4 @@
+The wireframe diagrams were made in Adobe XD, and the site map was made in 
+Despite the wireframe layout, I plan on combining all of the different product pages into a hierarchical page.  I did not illustrate this in the wireframe but I will change it and the actual layout accordingly in time.
+All store/product pages will contain the same layout.  I hope that just the one wireframe layout of the Pre Built page will be suitable for submission!
+Background images are sourced from https://www.pexels.com/photo/white-and-black-computer-fan-2225617/ and then I edited it in Photoshop

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BestBuilds :: Contact Us</title>
+    <link rel="stylesheet" href="contactstyle.css">
+  </head>
+  <body>
+    <header>
+      <h1>BestBuilds</h1>
+    </header>
+
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Home</a>
+      <a href="prebuilt.html">Pre-Built PC's</a>
+    <div class="dropdown">
+      <button class="dropbtn">Products
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="mobosandcpus.html">Motherboards & Processors</a>
+        <a href="memory.html">Memory</a>
+        <a href="storage.html">Storage</a>
+        <a href="gpus.html">Graphics Cards</a>
+        <a href="psus.html">Power Supplies</a>
+        <a href="casesandcooling.html">Cases and Cooling</a>
+      </div>
+    </div>
+      <a href="cart.html">Shopping Cart</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="javascript:void(0);"
+    style="font-size: 15px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+
+    <script>
+      function myFunction() {
+        var x =
+    document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+      }
+    </script>
+
+<div id="container">
+<h2 id="box" style="text-indent: 10px;"><i>Contact Us</i></h2>
+<p style="text-indent: 10px;">Fields marked with <strong>* are required!</strong></p>
+<div class="formcontainer">
+<form method="post" action="">
+<div class="row">
+  <div class="col-25">
+    <label for="fName">* First Name: </label>
+  </div>
+  <div class="col-75">
+      <input type="text" name="fName" id="fName" required="required"><br><br>
+  </div>
+</div>
+<div class="row">
+  <div class="col-25">
+    <label for="lName">* Last Name: </label>
+  </div>
+  <div class="col-75">
+      <input type="text" name="lName" id="lName" required="required"><br><br>
+  </div>
+</div>
+<div class="row">
+  <div class="col-25">
+    <label for="myEmail">* E-mail: </label>
+  </div>
+  <div class="col-75">
+      <input type="email" name="myEmail" id="myEmail" required="required"><br><br>
+  </div>
+</div>
+<div class="row">
+  <div class="col-25">
+    <label for="myCountry">Country: </label>
+  </div>
+  <div class="col-75">
+      <select name="myCountry" id="myCountry">
+        <option>United States</option>
+        <option>Canada</option>
+        <option>Mexico</option>
+        <option>England</option>
+        <option>China</option>
+        <option>India</option>
+        <option>Japan</option>
+        <option>Russia</option>
+      </select><br><br>
+  </div>
+</div>
+<div class="row">
+  <div class="col-25">
+     <label for="myInquiry">* Type of Inquiry: </label>
+  </div>
+  <div class="col-75">
+      <select name="myInquiry" id="myInquiry" required="required">
+        <option>Website issue/question</option>
+        <option>Order information</option>
+        <option>Order issue(s)</option>
+        <option>Shipping information</option>
+        <option>Shipping issues</option>
+        <option>Returning a product</option>
+        <option>Employment</option>
+      </select><br><br>
+  </div>
+</div>
+<div class="row">
+  <div class="col-25">
+     <label for="myComments">* Please enter your inquiry below</label><br>
+  </div>
+  <div class="col-75">
+      <textarea name="myComments" id="myComments" required="required" rows="10" cols="60">
+      </textarea><br><br>
+  </div>
+</div>
+<div class="row">
+     <input type="submit" value="Submit">
+</div>
+</form>
+ </div>
+<div class="addinfo">
+  <h3>Direct Contact Information</h3>
+  <p>Telephone Number: <strong>1-800-123-1234</strong></p>
+  <p>E-mail Address: <strong>contactus@bestbuilds.com</strong></p>
+  <p>Physical Address:</p>
+  <p><strong>229 Main Street, Keene, NH 03435</strong></p>
+</div>
+</div>
+
+
+
+  <footer style="color: #fef9ef; font-family: Arial;">
+  <i><small>Copyright &copy; 2020 BestBuilds<br>
+  <a style="color: #fef9ef;" href="mailto:john.fisher@ksc.keene.edu">john.fisher@ksc.keene.edu</a></small></i>
+  </footer>
+  </body>
+</html>
